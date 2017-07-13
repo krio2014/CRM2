@@ -13,6 +13,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </head>
+<!--
 	<script src="content/js/jquery.min.js"></script>
 <script src="content/js/bootstrap.min.js"></script>
 <script>
@@ -20,6 +21,7 @@
         $('.dropdown-toggle').dropdown();
     });
 </script>
+-->
   <body>
     <div class="container-fluid w-100 h-100" style="max-height:100%;" name="allContent">
 
@@ -95,48 +97,107 @@
                 </div>
             </div>
             </div>
-        <div class="container w-100" name="products">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Mortgage ref-123</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Life Cover ref-123</a>
-                </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-               href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-               Dropdown</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+        
+        <div class="container-fluid "  name="products">
+            <div class="row">
+                <!-- Only 6 products can be displayed at once-->
+                <div class="col-md w-90 col-fluid">
+                <ul class="nav nav-tabs w-100">
+                        <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123a</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                      </li>
+
+                      <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
+
+                    <li class="nav-item dropdown " style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
+
+
+
+
+
+
+            </ul>
+</div>
+                <div class="col-sm w-10 ">
+<!--                    <div class="dropdown-fluid">-->
+                        <button class="btn btn-primary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            File Options
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" style="color:green" href="#">New product</a>                            
+                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
+                            <a class="dropdown-item" style="color:red;" href="#">Delete File</a>
+                            <a class="dropdown-item" href="#">Options</a>
+                        </div>
+<!--                    </div>-->
+                </div>
             </div>
-          </li>
-				
-				 <li class="nav-item dropdown">
-				
-				
-				</li>
-        </ul>
-      </div>
-		<div class="container w-50">
-			<div class="dropdown">
-  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">New product</a>
-    <a class="dropdown-item" href="#">Delete Product</a>
-    <a class="dropdown-item" href="#">Options</a>
-  </div>
-</div></div>
+        </div>
         
         <!-- test side nav bar-->
+<!--
         <div class="container">
         
         </div>
+-->
 
         
         <!--end test side nav bar-->
@@ -163,10 +224,56 @@
                 
                 </div>
                 </div>
+            
             <div class="col">
                 <div class="bg-inverse p-2  text-white " >Summary</div>
                 
-				<div class="jumbotron h-100 w-100 " >asdasd</div>
+				<div class="jumbotron h-100 w-100 " >
+                   <div class="container w-100">
+                      <form>
+                        <div class="form-group row">
+                          <label for="inputEmail3" class="col-2 form-control-label">Case Reference:</label>
+                          <div class="col-sm-3">
+                            <input type="email" class="form-control " id="inputEmail3" placeholder="Ref-123" value="Ref-123">
+                          </div>
+                        </div>
+                        
+                      </form>
+                       
+                       <table class="table table-hover table-bordered"  style="max-width: 100%; border:solid;">
+  <thead>
+    <tr>
+        <th>Product Type</th>
+        <th>Applicant(s)</th>
+        <th>Application Reference</th>
+        <th>Stage</th>
+        <th>Lender</th>
+        <th>Next Stage Due</th>
+        <th>Mortgage Signup Date</th>
+        <th>Mortgage Completion Date</th>
+        <th>Property Address</th>
+        <th>Advisor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Mortgage</th>
+      <td>No Applicants</td>
+      <td>Ref-123</td>
+        <td>New Lead</td>
+        <td>Natwest</td>
+        <td>07/07/2017</td>
+        <td>05/07/2017</td>
+        <td>05/07/2017</td>
+        <td>328 Worlemoor</td>
+        <td>barry</td>
+    </tr>
+    
+  </tbody>
+</table>
+                    </div>
+
+                </div>
 					
                 </div>
 			
