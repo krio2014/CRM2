@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+	  
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </head>
+	<script src="content/js/jquery.min.js"></script>
+<script src="content/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
   <body>
     <div class="container-fluid w-100 h-100" style="max-height:100%;" name="allContent">
 
@@ -94,7 +106,7 @@
     
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-               href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
                Dropdown</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Action</a>
@@ -102,9 +114,23 @@
               <a class="dropdown-item" href="#">Another action</a>
             </div>
           </li>
-    
+				
+				 <li class="nav-item dropdown">
+				
+				
+				</li>
         </ul>
       </div>
+		<div class="container w-50"><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">New product</a>
+    <a class="dropdown-item" href="#">Delete Product</a>
+    <a class="dropdown-item" href="#">Options</a>
+  </div>
+</div></div>
         
         <!-- test side nav bar-->
         <div class="container">
@@ -137,9 +163,13 @@
                 </div>
                 </div>
             <div class="col">
-                <div class="bg-inverse p-2  text-white">Summary</div>
-                <div class="jumbotron h-100 w-100" >asdasd</div>
+                <div class="bg-inverse p-2  text-white " >Summary</div>
+                
+				<div class="jumbotron h-100 w-100 " >asdasd</div>
+					
                 </div>
+			
+			
         </div>
       </div>
       </div>
