@@ -58,51 +58,66 @@
         </nav>
         <!-- navigation end-->
         </div>
-
-        <!--Applicants-->
-        <div class="container p-3 w-100" name="applicantsContainer">
-            
-                <div class="card-group ">
-
-                <div class="card" name="applicant1">
-                    <div class="card-block">
-                        <div class="row">
-                            <div class="col-2">
-                           <img src="images/person.png" style="width:30px;"/>
-                                </div>
-                            <div class="col">
-                            <br/>
-                            Name: Adam Evans<br/>
-                            Dob: 03/06/87<br/></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" name="applicant2">
-                    <div class="card-block">
-                        <img src="images/person.png" style="width:30px;"/>
-                        Applicant 2
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-block" name="applicant3">
-                        <img src="images/person.png" style="width:30px;"/>
-                        Applicant 3
-                    </div>
-                </div>
-                <div class="card" name="applicant4">
-                    <div class="card-block">
-                        <img src="images/person.png" style="width:30px;"/>
-                        Applicant 4
-                    </div>
-                </div>
-            </div>
-            </div>
         
-        <div class="container-fluid "  name="products">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row p-2">
+                
+            <div class="col-sm-2">
+                 <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            File Options
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" style="color:green" href="#">New product</a>                            
+                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
+                            <a class="dropdown-item" style="color:red;" href="#">Delete File</a>
+                            <a class="dropdown-item" href="#">Options</a>
+                        </div>
+            </div>
+                <div class="col-sm-1">
+                        <div class="navbar-header">
+                            <button type="button" class="btn btn-primary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
+        <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                                <span class="but-primary">Products</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>                
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+
+      <div class="container-fluid" name="navBarContainer">
+        <div class="col-sm-2">
+<!--
+        <div class="navbar-header">
+    <button type="button" class="btn-primary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
+        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="but-primary">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>
+-->
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav nav-tabs w-100">
+<!--        <div class="col-md w-90 col-fluid">-->
+        <input type="hidden" id="selected_menu_item" value="=$selectedMenuId; ?>" />                               
+        
+   
+        
+        
+    
                 <!-- Only 6 products can be displayed at once-->
-                <div class="col-md w-90 col-fluid">
-                <ul class="nav nav-tabs w-100">
+             
+              
                         <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -176,29 +191,49 @@
 
             </ul>
 </div>
-                <div class="col-sm w-10 ">
-<!--                    <div class="dropdown-fluid">-->
-                        <button class="btn btn-primary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            File Options
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" style="color:green" href="#">New product</a>                            
-                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
-                            <a class="dropdown-item" style="color:red;" href="#">Delete File</a>
-                            <a class="dropdown-item" href="#">Options</a>
+</div>
+              
+            </div>
+
+
+        <!--Applicants-->
+        <div class="container p-3 w-100" name="applicantsContainer">
+            
+                <div class="card-group ">
+
+                <div class="card" name="applicant1">
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col-2">
+                           <img src="images/person.png" style="width:30px;"/>
+                                </div>
+                            <div class="col">
+                            <br/>
+                            Name: Adam Evans<br/>
+                            Dob: 03/06/87<br/></div>
                         </div>
-<!--                    </div>-->
+                    </div>
+                </div>
+                <div class="card" name="applicant2">
+                    <div class="card-block">
+                        <img src="images/person.png" style="width:30px;"/>
+                        Applicant 2
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block" name="applicant3">
+                        <img src="images/person.png" style="width:30px;"/>
+                        Applicant 3
+                    </div>
+                </div>
+                <div class="card" name="applicant4">
+                    <div class="card-block">
+                        <img src="images/person.png" style="width:30px;"/>
+                        Applicant 4
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- test side nav bar-->
-<!--
-        <div class="container">
-        
-        </div>
--->
-
+            </div>
         
         <!--end test side nav bar-->
         
