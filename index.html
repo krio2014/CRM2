@@ -27,7 +27,7 @@
 
         <div class="container-fluid" name="navBarContainer">
         <!-- Navigation-->
-        <nav class="navbar navbar-toggleable-md  navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md  navbar-inverse bg-inverse">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -60,32 +60,65 @@
         </div>
         
         <div class="container-fluid">
-            <div class="row p-2">
-                
-            <div class="col-sm-2">
-                 <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            File Options
+            <nav class="navbar navbar-toggleable-md  navbar-light bg-faded">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                      </li>
+                    <li class="nav-item">
+                    
+                    <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Options
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" style="color:green" href="#">New product</a>                            
                             <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
-                            <a class="dropdown-item" style="color:red;" href="#">Delete File</a>
+                            <a class="dropdown-item" style="color:red;" href="#">Delete Product From File</a>
                             <a class="dropdown-item" href="#">Options</a>
-                        </div>
-            </div>
-                <div class="col-sm-1">
-                        <div class="navbar-header">
-                            <button type="button" class="btn btn-primary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
+                        </div>                                                        
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
         <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
                                 <span class="but-primary">Products</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
+                                
                             </button>
-                        </div>                
-                </div>
-            </div>
-            
+                    
+                    </li>
+                    
+                    <li class="nav-item">                        
+                        <div class="card-block p-2">                        
+                        <img src="images/person.png" style="width:20px;"/>                                   
+                            Adam Evans                        
+                            </div>                        
+                    </li>
+                    <li class="nav-item">                        
+                        <div class="card-block p-2">                        
+                        <img src="images/person.png" style="width:20px;"/>                        
+                            Anne-Marie
+                            </div>
+                    </li>
+                    <li class="nav-item">                        
+                        <div class="card-block p-2">                        
+                        <img src="images/person.png" style="width:20px;"/>                        
+                            Applicant 3
+                            </div>
+                    </li>
+                    <li class="nav-item">                        
+                        <div class="card-block p-2">                        
+                        <img src="images/person.png" style="width:20px;"/>                        
+                            Applicant 4
+                            </div>
+                    </li>
+                </ul>            
+            </nav>            
         </div>
         
         
@@ -106,8 +139,10 @@
 </div>
 -->
         
+            
+            
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav nav-tabs w-100">
+    <ul class="nav nav-tabs w-100"   >
 <!--        <div class="col-md w-90 col-fluid">-->
         <input type="hidden" id="selected_menu_item" value="=$selectedMenuId; ?>" />                               
         
@@ -121,7 +156,7 @@
                         <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123a</a>
+                           Mortgage Ref-123</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -184,7 +219,27 @@
                         </div>
                       </li>
 
+ <li class="nav-item dropdown " style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
 
+ <li class="nav-item dropdown " style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                      </li>
 
 
 
@@ -197,7 +252,8 @@
 
 
         <!--Applicants-->
-        <div class="container p-3 w-100" name="applicantsContainer">
+        <!--
+        <div class="container p-3 w-100 " name="applicantsContainer">
             
                 <div class="card-group ">
 
@@ -234,10 +290,83 @@
                 </div>
             </div>
             </div>
-        
+        -->
         <!--end test side nav bar-->
         
+<!--        <nav class="navbar navbar-toggleable-md  navbar-inverse bg-inverse">-->
+
         
+        
+        
+        <div class="container p3 w-100">
+            <div class="row"><p></p></div>
+        <div class="row">
+            
+            <div class="col-2 w-30" name="sideBarContainer">
+        <div class="card card-outline-secondary">
+            <nav class="navbar-toggleable">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#sideBar" aria-controls="sideBar" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="sideBar">
+                <ul class="nav flex-column">                
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Summary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Application Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Diary Entries</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Commission Details</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Further Details</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Participants</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Document History</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Simple Tasks</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Attached Files</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Notes</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Fact-find</a>
+              </li>
+                
+              
+                </ul>
+                </div>
+                </nav>
+                </div>
+            </div>
+            <div class="col-10 w-100">
+                <div class="card h-100">
+                <h3 class="card-header card-faded">
+    Summary
+  </h3>
+                    <p class="card-text">
+<!--                <div class="card card-outline-secondary p-3 h-100 w-100" name="mainContentContainer">-->
+  
+                    Some summary items here
+<!--                </div>-->
+                </p>
+            </div>
+        </div>    
+       </div> 
+<!--
       <div class="container p-3 w-100">
         <div class="row">
             <div class="col-3 w-30" name="navCol">
@@ -265,46 +394,7 @@
                 
 				<div class="jumbotron h-90 w-90 " >
                    <div class="col-12">
-                      <form>
-                        <div class="form-group row">
-                          <label for="inputEmail3" class="col-2 form-control-label">Case Reference:</label>
-                          <div class="col-sm-3">
-                            <input type="email" class="form-control " id="inputEmail3" placeholder="Ref-123" value="Ref-123">
-                          </div>
-                        </div>
-                        
-                       </form>
-                       <table class="table-responsive table-hover table-bordered"  style="border:solid;">
-  <thead>
-    <tr>
-        <th>Product Type</th>
-        <th>Applicant(s)</th>
-        <th>Application Reference</th>
-        <th>Stage</th>
-        <th>Lender</th>
-        <th>Next Stage Due</th>
-        <th>Mortgage Signup Date</th>
-        <th>Mortgage Completion Date</th>
-        <th>Property Address</th>
-        <th>Advisor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Mortgage</th>
-      <td>No Applicants</td>
-      <td>Ref-123</td>
-        <td>New Lead</td>
-        <td>Natwest</td>
-        <td>07/07/2017</td>
-        <td>05/07/2017</td>
-        <td>05/07/2017</td>
-        <td>328 Worlemoor</td>
-        <td>barry</td>
-    </tr>
-    
-  </tbody>
-</table>
+
 
                     </div>
 
@@ -315,6 +405,7 @@
 			
         </div>
       </div>
+-->
       </div>
 <!--        </div>  -->
 
