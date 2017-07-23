@@ -13,15 +13,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </head>
-<!--
 	<script src="content/js/jquery.min.js"></script>
 <script src="content/js/bootstrap.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
-    });
+//    $(document).ready(function () {
+//        $('.dropdown-toggle').dropdown();
+//    });
+//    
+    $(function(){
+  $('[data-toggle="popover"]').popover()
+});
+    $(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 </script>
--->
   <body>
     <div class="container-fluid w-100 h-100" style="max-height:100%;" name="allContent">
 
@@ -32,7 +37,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="#">Backoffice</a>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -44,20 +48,36 @@
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Banking</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Settings</a>
-                </li>        
+               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Settings</a>
+                            <div class="dropdown-menu">
+                                <h6 class="dropdown-header">Users</h6>
+                                <a class="dropdown-item" href="#" disabled>Manage <b>Your</b> Profile</a>
+                                <a class="dropdown-item" href="#" disabled>Manage Profiles</a>
+                                <a class="dropdown-item" href="#">Manage Licences</a>
+                                <a class="dropdown-item" href="#">Manage Permissions</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Templates</h6>
+                                    <a class="dropdown-item" href="#">Email templates</a>
+                                    <a class="dropdown-item" href="#">Letter templates</a>
+                                    <a class="dropdown-item" href="#">SMS templates</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Commissions</h6>
+                                    <a class="dropdown-item"href="#">Manage Fees</a>
+                            </div>
+                      </li>    
+                <li class="nav-item nav-item-right">
+                    <a class="nav-link disabled" href="#">Logout</a>
+                </li>
             </ul>
-<!--
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
--->
-          </div>
-        </nav>
+         
+        
         <!-- navigation end-->
-        </div>
+            </div></nav>
+        
+        
         
         <div class="container-fluid">
             <nav class="navbar navbar-toggleable-md  navbar-light bg-faded">
@@ -93,39 +113,54 @@
                     
                     </li>
                     
-                    <li class="nav-item">                        
-                        <div class="card-block p-2">                        
-                        <img src="images/person.png" style="width:20px;"/>                                   
-                            Adam Evans                        
-                            </div>                        
+                    <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mr Adam Evans<br>
+                        DOB: 03/06/87<br>
+                        Tel: 078 969 83691">                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Adam Evans                                 
+                        </button>
                     </li>
-                    <li class="nav-item">                        
-                        <div class="card-block p-2">                        
-                        <img src="images/person.png" style="width:20px;"/>                        
-                            Anne-Marie
-                            </div>
+                    <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mrs Anne-Marie Evans<br>
+                        DOB: 24/10/88<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Anne-Marie                                 
+                        </button>
                     </li>
-                    <li class="nav-item">                        
-                        <div class="card-block p-2">                        
-                        <img src="images/person.png" style="width:20px;"/>                        
-                            Applicant 3
-                            </div>
+                   <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Ms Amanda Damario<br>
+                        DOB: 04/07/64<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Amanda Damario                               
+                        </button>
                     </li>
-                    <li class="nav-item">                        
-                        <div class="card-block p-2">                        
-                        <img src="images/person.png" style="width:20px;"/>                        
-                            Applicant 4
-                            </div>
+                    <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mr Stephen Evans<br>
+                        DOB: 19/10/57<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Stephen Evans                               
+                        </button>
                     </li>
                 </ul>            
             </nav>            
         </div>
-        
-        
-        
-        
-
-      <div class="container-fluid" name="navBarContainer">
+  
+      <div class="container-fluid"  name="navBarContainer">
         <div class="col-sm-2">
 <!--
         <div class="navbar-header">
@@ -249,8 +284,44 @@
 </div>
               
             </div>
+            <!-- testing pop over idea-->
+        <!--    
+           <a class="nav-link" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                           
+                   
+            
+<div class='container-fluid'>
+    <div class='row'>
+        <div class=' col-lg-3 w-100'>
+            <h3>Users</h3>
+            <li>
+                <a href=''>Users management</a>
+            </li>
+            <li>
+                <a href=''>licence Management</a>
+            </li>
+            
 
-
+        </div>
+        <div class='col-sm-3 w-100'>
+                    <h3>Templates</h3>
+            <li> 
+                <a href=''>Email templates</a>
+            </li>
+            <li>
+                <a href=''>Letter Templates</a>
+            </li>
+            <li>
+                <a href=''>SMS templates</a>
+            </li>
+        </div>
+        
+    </div>
+            
+</div>
+">
+                    Settings
+                    </a> -->
         <!--Applicants-->
         <!--
         <div class="container p-3 w-100 " name="applicantsContainer">
@@ -352,9 +423,7 @@
                 </nav>
                 </div>
             </div>
-			
-			
-			
+
             <div class="col-10 w-100">
                 <div class="card h-100">
                 <h3 class="card-header card-faded">
