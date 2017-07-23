@@ -83,9 +83,96 @@
         <!-- navigation end-->
             </div></nav>
         
+            <!-- new sub navbar-->
+            
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <a class="navbar-brand" href="#"><p></p></a>
+            <div class="collapse navbar-collapse" id="subNavBar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Mortgage Ref-123</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                      </li>
+                <li class="nav-item">
+                    
+                    <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Options
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" style="color:green" href="#">New product</a>                            
+                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
+                            <a class="dropdown-item" style="color:red;" href="#">Delete Product From File</a>
+                            <a class="dropdown-item" href="#">Options</a>
+                        </div>                                                        
+                    </li>
+                <li class="nav-item">
+                        <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
+        <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                                <span class="but-primary">Products</span>
+                                
+                            </button>
+                    
+                    </li>
+                <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mr Adam Evans<br>
+                        DOB: 03/06/87<br>
+                        Tel: 078 969 83691">                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Adam Evans                                 
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mrs Anne-Marie Evans<br>
+                        DOB: 24/10/88<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Anne-Marie                                 
+                        </button>
+                    </li>
+                   <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Ms Amanda Damario<br>
+                        DOB: 04/07/64<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Amanda Damario                               
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
+                        Name: Mr Stephen Evans<br>
+                        DOB: 19/10/57<br>
+                        Tel: 078 969 83691">  
+                        
+                            <img src="images/person.png" style="width:20px;"/>                                   
+                                Stephen Evans                               
+                        </button>
+                    </li>
+            </ul>
+            </div>
+            
+        </nav>
         
-        
-        <div class="container-fluid">
+        <!-- end new sub navbar-->    
+            <!--
+        <div class="container-fluid flex-column p-0">
             <nav class="navbar navbar-toggleable-md  navbar-light bg-faded">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown" style="min-width: 190px;">
@@ -112,7 +199,7 @@
                     </li>
                     <li class="nav-item">
                         <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
-        <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+        
                                 <span class="but-primary">Products</span>
                                 
                             </button>
@@ -165,7 +252,7 @@
                 </ul>            
             </nav>            
         </div>
-  
+  -->
       <div class="container-fluid"  name="navBarContainer">
         <div class="col-sm-2">
 <!--
@@ -186,29 +273,24 @@
     <ul class="nav nav-tabs w-100"   >
 <!--        <div class="col-md w-90 col-fluid">-->
         <input type="hidden" id="selected_menu_item" value="=$selectedMenuId; ?>" />                               
-        
-   
-        
-        
-    
+                               
                 <!-- Only 6 products can be displayed at once-->
-             
-              
-                        <li class="nav-item dropdown" style="min-width: 190px;">
-                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
+                           
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown"
                            href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-117</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                             </div>
-                      </li>
+                    </li>                     
 
-                      <li class="nav-item dropdown" style="min-width: 190px;">
-                            <a class="nav-link dropdown-toggle active" data-toggle="dropdown"
+                    <li class="nav-item dropdown" style="min-width: 190px;">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-115</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -219,7 +301,7 @@
                     <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-116</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -230,18 +312,7 @@
                     <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                        </div>
-                      </li>
-
-                    <li class="nav-item dropdown" style="min-width: 190px;">
-                            <a class="nav-link dropdown-toggle " data-toggle="dropdown"
-                           href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-118</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -252,7 +323,7 @@
                     <li class="nav-item dropdown " style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-119</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -260,27 +331,27 @@
                         </div>
                       </li>
 
- <li class="nav-item dropdown " style="min-width: 190px;">
+                    <li class="nav-item dropdown " style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-120</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                         </div>
-                      </li>
+                    </li>
 
- <li class="nav-item dropdown " style="min-width: 190px;">
+                    <li class="nav-item dropdown " style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Mortgage Ref-123</a>
+                           Mortgage Ref-121</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                         </div>
-                      </li>
+                    </li>
 
 
 
@@ -375,15 +446,32 @@
         
         
         
-        <div class="container-fluid p3 ">
+        <div class="container-fluid" name="body content">
             <div class="row" name="separator"><p></p></div>
         <div class="row">
             
+            <nav class="nav nav-tabs flex-column">
+                <a class="nav-link active" href="#">Summary</a>
+                <a class="nav-link" href="#">Timeline</a>
+                <a class="nav-link" href="#">Application Details</a>
+                <a class="nav-link" href="#">Diary Entries</a>
+                <a class="nav-link" href="#">Commission Details</a>
+                <a class="nav-link" href="#">Further Details</a>
+                <a class="nav-link" href="#">Participants</a>
+                <a class="nav-link" href="#">Document History</a>
+                <a class="nav-link" href="#">Simple Tasks</a>
+                <a class="nav-link" href="#">Attached Files</a>
+                <a class="nav-link" href="#">Notes</a>
+                <a class="nav-link" href="#">Fact-find</a>
+            </nav>
+            
+            <!-- old side bar-->
+            <!--
             <div class="col-2 w-30 col-fixed" name="sideBarContainer">
         <div class="card card-outline-secondary">
             <nav class="navbar-toggleable">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#sideBar" aria-controls="sideBar" aria-expanded="false" aria-label="Toggle navigation"></button>
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon" style="width:30px">Menu</span>
             <div class="collapse navbar-collapse" id="sideBar">
                 <ul class="nav flex-column">                
               <li class="nav-item">
@@ -428,9 +516,10 @@
                 </div>
                 </nav>
                 </div>
-            </div>
-
-            <div class="col-10 w-100">
+            </div>-->
+<!--            <div class="col-sm-1"></div>-->
+            
+            <div class="col flex-column p-0">
                 <div class="card h-100">
                 <h3 class="card-header card-faded">
     					Summary
