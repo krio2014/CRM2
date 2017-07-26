@@ -540,63 +540,10 @@
             </div>-->
             
             
-            <div class="col flex-column p-0">
-                <div class="card h-100">
-                <h3 class="card-header card-faded">
-    					Summary
-  				</h3>
-                    <p class="card-text p-4">
-                    	Some summary items here
-                	</p>
-            </div>
-        </div>    
-       </div> 
-<!--
-      <div class="container p-3 w-100">
-        <div class="row">
-            <div class="col-3 w-30" name="navCol">
-            <div class="jumbotron-fluid" >
-                
-                <button type="button" class="btn btn-block btn-secondary active">Summary</button>
-                <button type="button" class="btn btn-block btn-secondary">Timeline</button>
-                <button type="button" class="btn btn-block btn-secondary">Application Details</button>
-                <button type="button" class="btn btn-block btn-secondary">Diary Entries</button>
-                <button type="button" class="btn btn-block btn-secondary">Commission Details</button>
-                <button type="button" class="btn btn-block btn-secondary">Supporting Documents</button>
-                <button type="button" class="btn btn-block btn-secondary">Further Details</button>
-                <button type="button" class="btn btn-block btn-secondary">Participants</button>
-                <button type="button" class="btn btn-block btn-secondary">Document History</button>
-                <button type="button" class="btn btn-block btn-secondary">Simple Tasks</button>
-                <button type="button" class="btn btn-block btn-secondary">Attached Files</button>
-                <button type="button" class="btn btn-block btn-secondary">Notes</button>
-                <button type="button" class="btn btn-block btn-secondary">Fact-Find</button>
-                
-                </div>
-                </div>
-            
-            <div class="col-9">
-                <div class="bg-inverse p-2 text-white " >Summary</div>
-                
-				<div class="jumbotron h-90 w-90 " >
-                   <div class="col-12">
 
+                       <?php include('applicationDetails.html');?>
 
-                    </div>
-
-                </div>
-					
-                </div>
-			
-			
-        </div>
       </div>
--->
-      </div>
-<!--        </div>  -->
-
-
-        <!--Applicants end-->
-        
         
         
         
