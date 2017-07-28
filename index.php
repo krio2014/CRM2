@@ -81,21 +81,46 @@
     <!-- MAIN NAVBAR END-->
     
     <!-- SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case-->
-            
-        <nav class="navbar navbar-toggleable-md  nav-justifie navbar-light bg-faded">
+          
+        <nav class="navbar navbar-toggleable-md  nav-justified navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#"><p></p></a>
             <div class="collapse navbar-collapse" id="subNavBar">
-            <ul class="navbar-nav   mr-auto">
-				<li class="nav-item">                    
+            <ul class="navbar-nav  mr-auto nav-justified">
+				<!--
+                <li class="nav-item">                    
                         <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">    
                                 <span class="but-primary">Mortgage-123&nbsp;&nbsp;</span><img src="images/dropdown_Arrow.png"/>
                         </button>
                     
                 </li>
-				
+				-->
+                
+                <li class="nav-item">    
+                    <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Mortgage-123
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <h6 class="dropdown-header">Mortgages</h6>
+                        <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
+                        <a class="dropdown-item"  href="#">Mortgage-111</a>
+                        <a class="dropdown-item" href="#">Mortgage-921</a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Life Cover</h6>
+                        <a class="dropdown-item"  href="#">Life-554</a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Other 
+                            <span style="color:blue; align-content:right;">+</span>
+                        
+                        </h6>
+                        
+                        
+                    </div>                                                        
+                </li>
+                
+                
                 <li class="nav-item">    
                     <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Options
@@ -156,21 +181,30 @@
         </nav>
           
       <div class="container-fluid"  name="navBarContainer">
-        <div class="col-sm-3" style="overflow-y:scroll; min-width:100%;">
+        <div class="col-sm-3" style="overflow-y:scroll; min-width:100%; ">
 
         
             
             
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            
+            
+            
     <ul class="nav nav-tabs w-100"   >
 <!--        <div class="col-md w-90 col-fluid">-->
         <input type="hidden" id="selected_menu_item" value="=$selectedMenuId; ?>" />                               
                                
                 <!-- Only 6 products can be displayed at once-->
-                           
+                        
+        
+        
+        
+        
+        
                     <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle active" data-toggle="dropdown"
-                           href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
+                           href="/mortgage.html" role="dropdown"  aria-haspopup="true" aria-expanded="false">
                            Mortgage Ref-117</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -294,6 +328,7 @@
                <?php include('applicationDetails.html');?>
 
           </div>
-
+        </div>
+        </div></div>
     </body>
 </html>
