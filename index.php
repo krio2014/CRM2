@@ -93,6 +93,17 @@
             <a class="navbar-brand" href="#"><p></p></a>
             <div class="collapse navbar-collapse" id="subNavBar">
             <ul class="navbar-nav   mr-auto">
+				<li class="nav-item">
+                        <!--<button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">-->
+                        <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
+        <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                                <span class="but-primary">Mortgage-123&nbsp;&nbsp;</span><img src="images/dropdown_Arrow.png"/>
+                                
+                            </button>
+                    
+                    </li>
+				
+<!--
                 <li class="nav-item dropdown" style="min-width: 190px;">
                             <a class="nav-link dropdown-toggle " data-toggle="dropdown"
                            href="/mortgage.html" role="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -103,6 +114,7 @@
                                 <a class="dropdown-item" href="#">Another action</a>
                             </div>
                       </li>
+-->
                 <li class="nav-item">
                     
                     <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,14 +127,15 @@
                             <a class="dropdown-item" href="#">Options</a>
                         </div>                                                        
                     </li>
-                <li class="nav-item">
+				<!-- OLD products button-->
+               <!-- <li class="nav-item">
                         <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">
-        <!--        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+        <        <button class="btn btn-primary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="but-primary">Products</span>
                                 
                             </button>
                     
-                    </li>
+                    </li>-->
                 <li class="nav-item">
                     
                         <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
