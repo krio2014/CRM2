@@ -179,7 +179,14 @@
             </ul>
             </div>            
         </nav>
-          
+            
+        <div class="row" name="separator"><p></p></div>
+        <!-- PROGRESS BAR-->     
+        <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <!--END PROGRESS BAR-->    
+            
       <div class="container-fluid"  name="navBarContainer">
         <div class="col-sm-3" style="overflow-y:scroll; min-width:100%; ">
 
@@ -296,7 +303,7 @@
             <div class="row" name="separator"><p></p></div>
             
             <div class="row">
-                <div class="card">
+                <div class="card card-fluid">
                     <h5 class="card-header card-faded">
                         Product Options
                     </h5>
