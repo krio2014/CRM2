@@ -13,21 +13,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </head>
-<!--
 	<script src="content/js/jquery.min.js"></script>
 <script src="content/js/bootstrap.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $('.dropdown-toggle').dropdown();
-    });
+//    $(document).ready(function () {
+//        $('.dropdown-toggle').dropdown();
+//    });
+//    
+    $(function(){
+  $('[data-toggle="popover"]').popover()
+});
+    $(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 </script>
--->
-  <body>
-    
+    <body>
+    <?php include('header.html')?>
+        <div style="padding-top:56px;"></div>
       
-        
-        <?php include('header.html');?>
-    <div class="container" style ="top:56px;" id="allContent">  
+        <!-- SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case-->
         
         <nav class="navbar navbar-toggleable-md nav-justified navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,43 +130,54 @@
             </ul>
             </div>            
         </nav>
+      <div class="container-fluid p-4 "  name="body content">  
+<!--        <div class="row" name="separator"><p></p></div>-->
+      
+        <!-- PROGRESS BAR-->     
+        <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <!--END PROGRESS BAR-->    
         
-        <div class="container">
-            <div class="row p-2"></div>
+<!-- body including side bar and main panel-->
+            
+                  
+            <div class="row" name="separator"><p></p></div>
+            
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="card p-4">
-                         <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
-                    </div>
+                <div class="card card-fluid">
+                    <h5 class="card-header card-faded">
+                        Product Options
+                    </h5>
+                    <nav class="nav  flex-column" >                                    
+<!--                        <a class="nav-link"  href="#">Summary</a>-->
+                        <a class="nav-link" href="#" >Timeline</a>
+                        <a class="nav-link active" href="#">Product Details</a>
+                        <a class="nav-link" href="#">Diary Entries</a>
+                        <a class="nav-link" href="#">Commission Details</a>
+                        <a class="nav-link"  href="#">Further Details</a>
+                        <a class="nav-link" href="#">Participants</a>
+                        <a class="nav-link"  href="#">Document History</a>
+                        <a class="nav-link"  href="#">Checklist</a>
+                        <a class="nav-link"  href="#">Product Notes</a>
+                        <a class="nav-link"  href="#">Fact-find</a>
+                        <li class="nav-item dropup "  style="min-width: 190px;">
+                           <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">Attachments</a>
+                           <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">General</a>
+                                <a class="dropdown-item" href="#">Illustrations</a>
+                                <a class="dropdown-item" href="#">Other</a>
+                           </div>
+                        </li>
+                    </nav>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card p-4">
-                         <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
-                    </div>
-                </div>
-            
-            </div>
-            <div class="row p-2"></div>
-           <div class="row">
-                <div class="col-sm-6">
-                    <div class="card p-4">
-                         <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card p-4">
-                         <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
-                    </div>
-                </div>
-            
-            </div>
+
+                <!-- Main Panel-->
+
+               <?php include('applicationDetails.html');?>
+
+          </div>
         </div>
         
-        
-    </div> 
-  </body>
-  </html>
+    </body>
+</html>
