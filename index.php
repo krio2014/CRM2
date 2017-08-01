@@ -50,12 +50,14 @@
                         New Report
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item"  href="#">New Report</a>
+						<h6 class="dropdown-header">New Reports</h6>
+                        <a class="dropdown-item"  href="#">New</a>
+                        <div class="dropdown-divider"></div>  
                         <h6 class="dropdown-header">Existing Templates</h6>
                         <a class="dropdown-item"  href="#">Mortgage</a>                                                    
                         <a class="dropdown-item"  href="#">Loans</a>
                         <a class="dropdown-item" href="#">Insurances</a>
-                        <div class="dropdown-divider"></div>    
+                          
                     </div>                                                        
                 </li>
                 
@@ -79,11 +81,11 @@
             </div>            
         </nav>
         
-        <div class="container">
-            <div class="row p-2"></div>
-            <div class="row">
+        <div class="container w-100 h-100" style="border:solid;">
+            <div class="row p-2 h-100" ></div>
+            <div class="row" >
                 <div class="col-sm-6">
-                    <div class="card p-4">
+                    <div class="card p-4" style="border:solid;">
                          <h4 class="card-title">Report</h4>
                         <img src="images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
                     </div>

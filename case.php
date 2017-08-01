@@ -49,42 +49,48 @@
                 </li>
 				-->
                 
+<!--
                 <li class="nav-item">    
-                    <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Mortgage-123
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <h6 class="dropdown-header">Mortgages</h6>
-                        <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
-                        <a class="dropdown-item"  href="#">Mortgage-111</a>
-                        <a class="dropdown-item" href="#">Mortgage-921</a>
-                        <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-header">Life Cover</h6>
-                        <a class="dropdown-item"  href="#">Life-554</a>
-                        <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-header">Other 
-                            <span style="color:blue; align-content:right;">+</span>
-                        
-                        </h6>
-                        
-                        
-                    </div>                                                        
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mortgage-123
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h6 class="dropdown-header">Mortgages</h6>
+                            <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
+                            <a class="dropdown-item"  href="#">Mortgage-111</a>
+                            <a class="dropdown-item" href="#">Mortgage-921</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Life Cover</h6>
+                            <a class="dropdown-item"  href="#">Life-554</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Other 
+                                <span style="color:blue; align-content:right;">+</span>
+
+                            </h6>
+
+
+                        </div>    
+                    </div>
                 </li>
+-->
                 
                 
                 <li class="nav-item">    
-                    <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Options
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" style="color:green" href="#">New product</a>                            
-                        <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
-                        <a class="dropdown-item" style="color:red;" href="#">Delete Product From File</a>
-                        <a class="dropdown-item" href="#">Options</a>
-                    </div>                                                        
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            File Options
+                        </button>
+                        <div class="dropdown-menu offset-4" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item " style="color:green" href="#">New product</a>                           
+                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
+                            <a class="dropdown-item" style="color:red;" href="#">Delete Product From File</a>
+                            <a class="dropdown-item" href="#">Options</a>
+                        </div>    
+                    </div>
                 </li>
-				
-                <li class="nav-item">    
+				<div class="p-1"></div>
+                <li class="nav-item ">    
                         <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
                         Name: Mr Adam Evans<a href='index.html'> edit</a><br>
                         DOB: 03/06/87<a href='index.html'> edit</a><br>
@@ -95,6 +101,7 @@
                                 Adam Evans                                 
                         </button>
                 </li>
+                <div class="p-1"></div>
                 <li class="nav-item">
                     
                         <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
@@ -106,6 +113,7 @@
                                 Anne-Marie                                 
                         </button>
                 </li>
+                <div class="p-1"></div>
                 <li class="nav-item">
                     
                         <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
@@ -117,6 +125,7 @@
                                 Amanda Damario                               
                         </button>
                 </li>
+                <div class="p-1"></div>
                 <li class="nav-item">
                     
                         <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
@@ -134,50 +143,83 @@
 <!--        <div class="row" name="separator"><p></p></div>-->
       
         <!-- PROGRESS BAR-->     
+<!--
         <div class="progress">
-            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
         </div>
+-->
         <!--END PROGRESS BAR-->    
         
 <!-- body including side bar and main panel-->
             
                   
-            <div class="row" name="separator"><p></p></div>
+<!--            <div class="row" name="separator"><p></p></div>-->
             
             <div class="row">
                 <div class="card card-fluid">
                     <h5 class="card-header card-faded">
-                        Product Options
+
+                    <div class="dropdown">
+                        <button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!--Place holder for mortgage variable-->
+                            Mortgage-123 
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <h6 class="dropdown-header">Mortgages</h6>
+                                <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
+                                <a class="dropdown-item"  href="#">Mortgage-111</a>
+                                <a class="dropdown-item" href="#">Mortgage-921</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Life Cover</h6>
+                                <a class="dropdown-item"  href="#">Life-554</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Other <span style="color:blue; align-content:right;">+</span>
+
+                            </h6>
+                        </div>    
+                    </div>                       
                     </h5>
+                    
+                    
+                    
+                    
                     <nav class="nav  flex-column" >                                    
 <!--                        <a class="nav-link"  href="#">Summary</a>-->
                         <a class="nav-link" href="#" >Timeline</a>
                         <a class="nav-link active" href="#">Product Details</a>
-                        <a class="nav-link" href="#">Diary Entries</a>
-                        <a class="nav-link" href="#">Commission Details</a>
-                        <a class="nav-link"  href="#">Further Details</a>
-                        <a class="nav-link" href="#">Participants</a>
-                        <a class="nav-link"  href="#">Document History</a>
-                        <a class="nav-link"  href="#">Checklist</a>
-                        <a class="nav-link"  href="#">Product Notes</a>
+                        <a class="nav-link" href="#">Reminders</a>
+                        <a class="nav-link" href="#">Commissions</a>
+<!--                        <a class="nav-link"  href="#">Further Details</a>-->
+                        <a class="nav-link" href="#">Associated People</a>
+                        <a class="nav-link"  href="#">Contact</a>
+                        <a class="nav-link"  href="#">Compliance Check</a>
                         <a class="nav-link"  href="#">Fact-find</a>
+                        
+                        <a class="nav-link"  href="#">Notes</a>
                         <li class="nav-item dropup "  style="min-width: 190px;">
-                           <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">Attachments</a>
+                           <div class="dropdown">
+                            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="dropdown" aria-haspopup="true" aria-expanded="false">Attachments</a>
                            <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">General</a>
                                 <a class="dropdown-item" href="#">Illustrations</a>
                                 <a class="dropdown-item" href="#">Other</a>
                            </div>
+                               </div>
                         </li>
                     </nav>
+                    <div class="container p-4 w-100">
+                     <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+                        </div>
                 </div>
 
                 <!-- Main Panel-->
 
-               <?php include('applicationDetails.html');?>
+               <?php include('productDetails.html');?>
 
           </div>
         </div>
-        
+        <?php include('footer.html')?>
     </body>
 </html>
