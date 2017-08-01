@@ -27,7 +27,7 @@
       
         
         <?php include('header.html');?>
-    <div class="container" style ="top:56px;" id="allContent">  
+     <div style="padding-top:56px;"></div>
         
         <nav class="navbar navbar-toggleable-md nav-justified navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,27 +47,20 @@
                 
                 <li class="nav-item">    
                     <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Mortgage-123
+                        New Report
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <h6 class="dropdown-header">Mortgages</h6>
-                        <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
-                        <a class="dropdown-item"  href="#">Mortgage-111</a>
-                        <a class="dropdown-item" href="#">Mortgage-921</a>
-                        <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-header">Life Cover</h6>
-                        <a class="dropdown-item"  href="#">Life-554</a>
-                        <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-header">Other 
-                            <span style="color:blue; align-content:right;">+</span>
-                        
-                        </h6>
-                        
-                        
+						<a class="dropdown-item"  href="#">New Report</a>
+                        <h6 class="dropdown-header">Existing Templates</h6>
+                        <a class="dropdown-item"  href="#">Mortgage</a>                                                    
+                        <a class="dropdown-item"  href="#">Loans</a>
+                        <a class="dropdown-item" href="#">Insurances</a>
+                        <div class="dropdown-divider"></div>    
                     </div>                                                        
                 </li>
                 
                 
+<!--
                 <li class="nav-item">    
                     <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Options
@@ -79,50 +72,9 @@
                         <a class="dropdown-item" href="#">Options</a>
                     </div>                                                        
                 </li>
+-->
 				
-                <li class="nav-item">    
-                        <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mr Adam Evans<a href='index.html'> edit</a><br>
-                        DOB: 03/06/87<a href='index.html'> edit</a><br>
-                        Tel: 078 969 83691
-                        <a href='index.html'> edit</a>
-                        ">                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Adam Evans                                 
-                        </button>
-                </li>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mrs Anne-Marie Evans<br>
-                        DOB: 24/10/88<br>
-                        Tel: 078 969 83691">  
-                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Anne-Marie                                 
-                        </button>
-                </li>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Ms Amanda Damario<br>
-                        DOB: 04/07/64<br>
-                        Tel: 078 969 83691">  
-                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Amanda Damario                               
-                        </button>
-                </li>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mr Stephen Evans<br>
-                        DOB: 19/10/57<br>
-                        Tel: 078 969 83691">                          
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Stephen Evans                               
-                        </button>
-                </li>
+                
             </ul>
             </div>            
         </nav>
@@ -133,13 +85,13 @@
                 <div class="col-sm-6">
                     <div class="card p-4">
                          <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
+                        <img src="images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="card p-4">
                          <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
+						<img src="images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
                     </div>
                 </div>
             
@@ -149,13 +101,13 @@
                 <div class="col-sm-6">
                     <div class="card p-4">
                          <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
+                        <img src="images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="card p-4">
                          <h4 class="card-title">Report</h4>
-                        <img src="/mysites/CRM2/images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
+                        <img src="images/ascending-graph-1173935_960_720.png" width="100%" height="100%"/>
                     </div>
                 </div>
             
@@ -163,6 +115,6 @@
         </div>
         
         
-    </div> 
+    
   </body>
   </html>
