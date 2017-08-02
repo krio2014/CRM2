@@ -3,11 +3,11 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
-	  
+<!--	  <link rel="stylesheet" href="css/CRM_CSS.css">-->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -27,13 +27,13 @@
   $('[data-toggle="tooltip"]').tooltip();
 });
 </script>
-    <body>
+    <body style="height:100%; min-height:100%;">
     <?php include('header.html')?>
         <div style="padding-top:56px;"></div>
       
         <!-- SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case-->
         
-        <nav class="navbar navbar-toggleable-md nav-justified navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md nav-justified navbar-light bg-faded h-100">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -139,7 +139,8 @@
             </ul>
             </div>            
         </nav>
-      <div class="container-fluid p-4 "  name="body content">  
+		
+      	<div class="container-fluid p-4 h-100"  style="height:100%; min-height:100%" name="body content">  
 <!--        <div class="row" name="separator"><p></p></div>-->
       
         <!-- PROGRESS BAR-->     
@@ -155,8 +156,8 @@
                   
 <!--            <div class="row" name="separator"><p></p></div>-->
             
-            <div class="row">
-                <div class="card card-fluid">
+            <div class="row h-100" style="min-height:100%">
+                <div class="card card-fluid h-100" style="min-height:100%">
                     <h5 class="card-header card-faded">
 
                     <div class="dropdown">
@@ -208,9 +209,9 @@
                         </li>
                     </nav>
                     <div class="container p-4 w-100">
-                     <div class="progress">
-            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
+                     	<div class="progress">
+            				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+						</div>
                         </div>
                 </div>
 
@@ -221,5 +222,6 @@
           </div>
         </div>
         <?php include('footer.html')?>
+<!--
     </body>
-</html>
+</html>-->
