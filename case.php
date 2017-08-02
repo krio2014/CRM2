@@ -34,52 +34,18 @@
 
     <body style="height:100%; min-height:100%;">
     <?php include('header.html')?>
-        <div style="padding-top:56px;"></div>
+      <!--  <div style="padding-top:56px;"></div>
       
-        <!-- SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case-->
+         SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case
         
-        <nav class="navbar navbar-toggleable-md nav-justified navbar-light bg-faded h-100">
+        <nav class="navbar navbar-toggleable-md fixed-top nav-justified navbar-light bg-faded" style="margin-top:56px;" id="subNavBar">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#"><p></p></a>
             <div class="collapse navbar-collapse" id="subNavBar">
             <ul class="navbar-nav  mr-auto nav-justified">
-				<!--
-                <li class="nav-item">                    
-                        <button type="button" class="btn btn-secondary navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-haspopup="false" aria-expanded="false">    
-                                <span class="but-primary">Mortgage-123&nbsp;&nbsp;</span><img src="images/dropdown_Arrow.png"/>
-                        </button>
-                    
-                </li>
-				-->
-                
-<!--
-                <li class="nav-item">    
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Mortgage-123
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <h6 class="dropdown-header">Mortgages</h6>
-                            <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
-                            <a class="dropdown-item"  href="#">Mortgage-111</a>
-                            <a class="dropdown-item" href="#">Mortgage-921</a>
-                            <div class="dropdown-divider"></div>
-                            <h6 class="dropdown-header">Life Cover</h6>
-                            <a class="dropdown-item"  href="#">Life-554</a>
-                            <div class="dropdown-divider"></div>
-                            <h6 class="dropdown-header">Other 
-                                <span style="color:blue; align-content:right;">+</span>
-
-                            </h6>
-
-
-                        </div>    
-                    </div>
-                </li>
--->
-                
+			               
                 
                 <li class="nav-item">    
                     <div class="dropdown">
@@ -143,12 +109,12 @@
                 </li>
             </ul>
             </div>            
-        </nav>
+        </nav>-->
 		
-      	<div class="container-fluid p-4 h-100"  style="height:100%; min-height:100%" id="mainContentContainer">  
+      	<div class="container-fluid p-4 h-100"  style="z-index:auto;margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
-            <div class="row h-100" style="min-height:100%" id="mainContentRow">
-                <div class="card card-fluid h-100" style="min-height:100%" id="sideBar">
+            <div class="row h-100" style="z-index:auto;min-height:100%" id="mainContentRow" >
+                <div class="card card-fluid" style="z-index:auto; min-height:100%" id="sideBar">
                     <h5 class="card-header card-faded" id="sideBarheader">
                     	<div class="dropdown" id="productOptions">
 							<button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -199,6 +165,7 @@
             				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
 						</div>
                     </div>
+                    <span class="h-100"></span>
                 </div>
 
                 <!-- Main Panel-->
