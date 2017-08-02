@@ -145,51 +145,32 @@
             </div>            
         </nav>
 		
-      	<div class="container-fluid p-4 h-100"  style="height:100%; min-height:100%" name="body content">  
-<!--        <div class="row" name="separator"><p></p></div>-->
-      
-        <!-- PROGRESS BAR-->     
-<!--
-        <div class="progress">
-            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-        </div>
--->
-        <!--END PROGRESS BAR-->    
-        
-<!-- body including side bar and main panel-->
+      	<div class="container-fluid p-4 h-100"  style="height:100%; min-height:100%" id="mainContentContainer">  
             
-                  
-<!--            <div class="row" name="separator"><p></p></div>-->
-            
-            <div class="row h-100" style="min-height:100%">
-                <div class="card card-fluid h-100" style="min-height:100%">
-                    <h5 class="card-header card-faded">
-
-                    <div class="dropdown">
-                        <button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <!--Place holder for mortgage variable-->
-                            Mortgage-123 
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <h6 class="dropdown-header">Mortgages</h6>
-                                <a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
-                                <a class="dropdown-item"  href="#">Mortgage-111</a>
-                                <a class="dropdown-item" href="#">Mortgage-921</a>
-                            <div class="dropdown-divider"></div>
-                            <h6 class="dropdown-header">Life Cover</h6>
-                                <a class="dropdown-item"  href="#">Life-554</a>
-                                <div class="dropdown-divider"></div>
-                                <h6 class="dropdown-header">Other <span style="color:blue; align-content:right;">+</span>
-
-                            </h6>
-                        </div>    
-                    </div>                       
+            <div class="row h-100" style="min-height:100%" id="mainContentRow">
+                <div class="card card-fluid h-100" style="min-height:100%" id="sideBar">
+                    <h5 class="card-header card-faded" id="sideBarheader">
+                    	<div class="dropdown" id="productOptions">
+							<button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<!--Place holder for mortgage variable-->
+								Mortgage-123 
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<h6 class="dropdown-header">Mortgages</h6>
+									<a class="dropdown-item"  href="#">Mortgage-321</a>                                                    
+									<a class="dropdown-item"  href="#">Mortgage-111</a>
+									<a class="dropdown-item" href="#">Mortgage-921</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Life Cover</h6>
+									<a class="dropdown-item"  href="#">Life-554</a>
+									<div class="dropdown-divider"></div>
+									<h6 class="dropdown-header">Other <span style="color:blue; align-content:right;">+</span>
+								</h6>
+							</div>    
+                    	</div>                       
                     </h5>
-                    
-                    
-                    
-                    
-                    <nav class="nav  flex-column" >                                    
+
+                    <nav class="nav  flex-column" id="sideBarNav">                                    
 <!--                        <a class="nav-link"  href="#">Summary</a>-->
                         <a class="nav-link" href="#" >Timeline</a>
                         <a class="nav-link active" href="#">Product Details</a>
@@ -213,11 +194,11 @@
                                </div>
                         </li>
                     </nav>
-                    <div class="container p-4 w-100">
-                     	<div class="progress">
+                    <div class="container p-4 w-100" id="progressBarContainer">
+                     	<div class="progress" id="progressBar">
             				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
 						</div>
-                        </div>
+                    </div>
                 </div>
 
                 <!-- Main Panel-->
