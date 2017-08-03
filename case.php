@@ -33,87 +33,14 @@
 	
 
     <body style="height:100%; min-height:100%;">
-    <?php include('header.html')?>
-      <!--  <div style="padding-top:56px;"></div>
-      
-         SUB-NAVBAR including products button, options for current product and the list of applicants involved in this case
+        <!-- include header-->
+        <?php include('header.html')?>
         
-        <nav class="navbar navbar-toggleable-md fixed-top nav-justified navbar-light bg-faded" style="margin-top:56px;" id="subNavBar">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#subNavBar" aria-controls="subNavBar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#"><p></p></a>
-            <div class="collapse navbar-collapse" id="subNavBar">
-            <ul class="navbar-nav  mr-auto nav-justified">
-			               
-                
-                <li class="nav-item">    
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle w-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            File Options
-                        </button>
-                        <div class="dropdown-menu offset-4" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item " style="color:green" href="#">New product</a>                           
-                            <a class="dropdown-item" style="color:blue;" href="#">Compare Products</a>
-                            <a class="dropdown-item" style="color:red;" href="#">Delete Product From File</a>
-                            <a class="dropdown-item" href="#">Options</a>
-                        </div>    
-                    </div>
-                </li>
-				<div class="p-1"></div>
-                <li class="nav-item ">    
-                        <button type="button" class="btn btn-secondary w-100" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mr Adam Evans<a href='index.html'> edit</a><br>
-                        DOB: 03/06/87<a href='index.html'> edit</a><br>
-                        Tel: 078 969 83691
-                        <a href='index.html'> edit</a>
-                        ">                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Adam Evans                                 
-                        </button>
-                </li>
-                <div class="p-1"></div>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mrs Anne-Marie Evans<br>
-                        DOB: 24/10/88<br>
-                        Tel: 078 969 83691">  
-                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Anne-Marie                                 
-                        </button>
-                </li>
-                <div class="p-1"></div>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Ms Amanda Damario<br>
-                        DOB: 04/07/64<br>
-                        Tel: 078 969 83691">  
-                        
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Amanda Damario                               
-                        </button>
-                </li>
-                <div class="p-1"></div>
-                <li class="nav-item">
-                    
-                        <button type="button" class="btn btn-secondary w-100" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="
-                        Name: Mr Stephen Evans<br>
-                        DOB: 19/10/57<br>
-                        Tel: 078 969 83691">                          
-                            <img src="images/person.png" style="width:20px;"/>                                   
-                                Stephen Evans                               
-                        </button>
-                </li>
-            </ul>
-            </div>            
-        </nav>-->
-		
-      	<div class="container-fluid p-4 h-100"  style="margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
+		<?php include('subnav.html')?>
+      	<div class="container-fluid p-4 h-100"  style="z-index:auto; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
             <div class="row h-100" style="min-height:100%" id="mainContentRow" >
+                
                 <div class="card card-fluid" style=" min-height:100%" id="sideBar">
                     <h5 class="card-header card-faded" id="sideBarheader">
                     	<div class="dropdown" id="productOptions">
