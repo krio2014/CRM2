@@ -111,10 +111,10 @@
             </div>            
         </nav>-->
 		
-      	<div class="container-fluid p-4 h-100"  style="z-index:auto;margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
+      	<div class="container-fluid p-4 h-100"  style="margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
-            <div class="row h-100" style="z-index:auto;min-height:100%" id="mainContentRow" >
-                <div class="card card-fluid" style="z-index:auto; min-height:100%" id="sideBar">
+            <div class="row h-100" style="min-height:100%" id="mainContentRow" >
+                <div class="card card-fluid" style=" min-height:100%" id="sideBar">
                     <h5 class="card-header card-faded" id="sideBarheader">
                     	<div class="dropdown" id="productOptions">
 							<button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -160,19 +160,27 @@
                                </div>
                         </li>
                     </nav>
-                    <div class="container p-4 w-100" id="progressBarContainer">
+					<div class"separator"></div>
+					<div class="container p-4 w-100" id="progressBarContainer">
                      	<div class="progress" id="progressBar">
             				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
 						</div>
                     </div>
-                    <span class="h-100"></span>
+<!--                    <span class="h-100"></span>-->
                 </div>
 
                 <!-- Main Panel-->
 
                <?php include('productDetails.html');?>
+				
 
           </div>
+			<div class="separated h-100"></div>
+			<div class="container p-4 w-100" id="progressBarContainer">
+                     	<div class="progress" id="progressBar">
+            				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+						</div>
+                    </div>
         </div>
         <?php include('footer.html')?>
 <!--
