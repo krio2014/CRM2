@@ -160,27 +160,20 @@
                                </div>
                         </li>
                     </nav>
-					<div class"separator"></div>
-					<div class="container p-4 w-100" id="progressBarContainer">
+					                    <span class="h-100"></span>
+                    <div class="container p-4 w-100" id="progressBarContainer">
                      	<div class="progress" id="progressBar">
             				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
 						</div>
                     </div>
-<!--                    <span class="h-100"></span>-->
+
                 </div>
 
                 <!-- Main Panel-->
 
                <?php include('productDetails.html');?>
-				
 
           </div>
-			<div class="separated h-100"></div>
-			<div class="container p-4 w-100" id="progressBarContainer">
-                     	<div class="progress" id="progressBar">
-            				<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-						</div>
-                    </div>
         </div>
         <?php include('footer.html')?>
 <!--
