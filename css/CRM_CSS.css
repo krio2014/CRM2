@@ -6,3 +6,19 @@ body {
   min-height: 100%;
 	overflow: auto;
 }
+
+.sideBarLink{
+/*    border:solid;*/
+/*    border-width:1px;*/
+}
+.sideBarLink:active{
+    background:grey;
+}
+.sideBarLink:hover{
+    background:#0A5CA3;
+    color:white;
+}
+.currentLink{
+    background:#0A5CA3;
+    color:white;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/CRM_CSS.css">
 	  <!-- bootsrap and jquery links-->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -43,7 +44,7 @@
             
             <div class="row h-100" style="min-height:100%" id="mainContentRow" >
 				<!--TEMP-->
-				<div class="col-sm-2 hidden-lg-down">
+				<div class="col-sm-2 hidden-lg-down" id="abc">
 					<?php include('sidebar.html')?>
                 <!-- SIDEBAR-->
 					<!--
@@ -103,7 +104,10 @@
                 </div>-->
 <!--TEMP-->
 				</div>
-				<div class="col-sm-10">
+<!--                <div class="col h-10">-->
+                <input type="button" class="hidden-lg-down" style="height:52px; width:25px; margin-left:-15px;" onClick="tog('#abc');" value=">">
+<!--                </div>-->
+				<div class="col-sm w-100 h-100">
                 <!-- Main Panel-->
 
                <?php include('productDetails.html');?>
