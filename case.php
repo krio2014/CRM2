@@ -35,9 +35,8 @@
     <body style="height:100%; min-height:100%;">
         <!-- include header-->
         <?php include('header.html')?>
-        
-		<?php include('subnav.html')?>
-      	<div class="container-fluid p-4 h-100"  style="z-index:auto; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
+<!--		<?php include('subnav.html')?>-->
+      	<div class="container-fluid p-4 h-100"  style="z-index:auto; margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
             <div class="row h-100" style="min-height:100%" id="mainContentRow" >
                 
