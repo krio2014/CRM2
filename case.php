@@ -39,11 +39,16 @@
       	<div class="container-fluid p-4 h-100"  style="z-index:auto; margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
             <div class="row h-100" style="min-height:100%" id="mainContentRow" >
-                <div class="card card-fluid" style=" min-height:100%" id="sideBar">
+				<!--TEMP-->
+				<div class="col-sm-2">
+					<?php include('sidebar.html')?>
+                <!-- SIDEBAR-->
+					<!--
+				<div class="card card-fluid" style=" min-height:100%" id="sideBar">
                     <h5 class="card-header card-faded" id="sideBarheader">
                     	<div class="dropdown" id="productOptions">
 							<button class="btn btn-primary btn-sm dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<!--Place holder for mortgage variable-->
+								Place holder for mortgage variable
 								Mortgage-123 
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -62,12 +67,12 @@
                     </h5>
 
                     <nav class="nav  flex-column" id="sideBarNav">                                    
-<!--                        <a class="nav-link"  href="#">Summary</a>-->
+
                         <a class="nav-link" href="#" >Timeline</a>
                         <a class="nav-link active" href="#">Product Details</a>
                         <a class="nav-link" href="#">Reminders</a>
                         <a class="nav-link" href="#">Commissions</a>
-<!--                        <a class="nav-link"  href="#">Further Details</a>-->
+
                         <a class="nav-link" href="#">Associated People</a>
                         <a class="nav-link"  href="#">Contact</a>
                         <a class="nav-link"  href="#">Compliance Check</a>
@@ -92,13 +97,17 @@
 						</div>
                     </div>
 
-                </div>
-
+                </div>-->
+<!--TEMP-->
+				</div>
+				<div class="col-sm-10">
                 <!-- Main Panel-->
 
                <?php include('productDetails.html');?>
 
           </div>
+			<!--TEMP-->
+			</div>
         </div>
         <?php include('footer.html')?>
 <!--
