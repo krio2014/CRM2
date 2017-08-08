@@ -42,7 +42,7 @@
 <!--		<?php include('subnav.html')?>-->
       	<div class="container-fluid p-4 h-100"  style="z-index:auto; margin-top:56px; margin-bottom:56px;height:100%; min-height:100%" id="mainContentContainer">  
             
-            <div class="row h-100" style="min-height:100%" id="mainContentRow" >
+            <div class="row h-100" style="min-height:100% margin-bottom:56px;" id="mainContentRow" >
 				<!--TEMP-->
 				<div class="col-sm-2 hidden-lg-down" id="abc">
 					<?php include('sidebar.html')?>
@@ -105,7 +105,7 @@
 <!--TEMP-->
 				</div>
 <!--                <div class="col h-10">-->
-                <input type="button" class="hidden-lg-down" style="height:52px; width:25px; margin-left:-15px;" onClick="tog('#abc');" value=">">
+                <input type="button" class="hidden-lg-down" tooltip="" style="height:52px; width:25px; margin-left:-15px;" onClick="tog('#abc');" value=">">
 <!--                </div>-->
 				<div class="col-sm w-100 h-100">
                 <!-- Main Panel-->
